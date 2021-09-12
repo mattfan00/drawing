@@ -1,0 +1,43 @@
+:root {
+  --main-color: #8b7530;
+}
+body {
+  margin: 0;
+  background-color: #dabe65;
+  color: var(--main-color);
+  font-family: "Newsreader", sans-serif;
+}
+
+svg.food {
+  width: 100px;
+  height: 100px;
+  fill: var(--main-color);
+}
+
+.main {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.first-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 1.5em;
+}
+
+.second-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item h3 {
+  margin: 0.25em 0;
+}

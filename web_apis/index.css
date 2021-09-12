@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  background-color: #131315;
+  color: #c2c2c2;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.625;
+
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  color: red
+}
+
+a:visited {
+  color: red
+}
+
+.images {
+  position: relative;
+  height: 100vh;
+}
+
+.moon {
+  position: absolute;
+  top: 20px;
+}
+
+.moon img {
+  width: 100px;
+}
+
+.rocket {
+  position: absolute;
+  bottom: 20px;
+  transition: transform 5s;
+}
+
+.rocket img {
+  width: 70px;
+}
+
+.rocket .explosion {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+
+.percentage {
+  position: absolute;
+  top: 50%;
+  right: -70px;
+  transform: translateY(-50%);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.caption {
+  margin-left: 300px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  background-color: #42424e;
+  border-radius: 20px;
+  padding: 20px;
+  width: 400px;
+}

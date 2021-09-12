@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Drawing on the Web - Web APIs</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="images">
+      <div class="moon"><img src="./assets/moon.svg" /></div>
+      <div class="rocket">
+        <img src="./assets/rocket.svg" />
+        <img class="explosion" src="./assets/explosion.gif" />
+        <div class="percentage">0.00%</div>
+      </div>
+    </div>
+    <div class="caption">
+      <div class="text">
+        I used a stock API provided by Alpha Vantage <a href="https://www.alphavantage.co/documentation/">link </a>for this project. This website provides a lot of useful statistics on stocks, such as the prices of a certain stock every 5 minutes (making it really great for data visualizations) or the stock's annual and quarterly earnings, but for my purposes I used an endpoint that just returns the opening and closing prices for a given stock every day. Using this data, I calculated the percentage changed from the previous closing price to the current closing price for GameStop, and visualized this percentage change through how far the rocket ship moves towards the moon. If the percent change is lower than 0%, the rocket ship blows up.
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

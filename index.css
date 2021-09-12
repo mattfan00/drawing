@@ -1,0 +1,33 @@
+body {
+  font-family: Avenir Next;
+  background-color: #10121b;
+  color: #afadad;
+}
+
+a {
+  color: #d29915;
+}
+
+.main {
+  max-width: 400px;
+  padding: 0 3em;
+  margin: 5em auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #d29915;
+  margin-bottom: 1.5em;
+}
+
+.projects {
+  font-size: 13px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7px;
+}

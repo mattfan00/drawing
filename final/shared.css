@@ -1,0 +1,68 @@
+:root {
+  --background-color: white;
+}
+
+.night {
+  --background-color: black;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: var(--background-color);
+  overflow: hidden;
+  display: none;
+}
+
+img {
+  user-select: none;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.location-logo-img {
+  width: 200px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+
+.sun-moon-img {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.stars {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  display: none;
+}
+
+.stars img {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+}
+
+.clouds {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  display: none;
+}
+
+.clouds img {
+  position: absolute;
+  height: 100px;
+  width: 200px;
+}
